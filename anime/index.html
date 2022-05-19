@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <style>
+        body {
+            background: url(https://wallpaperaccess.com/full/165083.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+        }
+
+        .animeText {
+            font-family: 'Lato', 'sans-serif';
+            font-size: 24px;
+            text-align: center;
+        }
+
+        #animesubmit {
+            color: white;
+            padding: 5px 30px;
+            border-radius: 5px;
+        }
+
+        .animeTextinput {
+            font-size: 18px;
+        }
+
+        .card {
+            color: white;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            width: 49%;
+        }
+    </style>
+    <title>Anime Finder</title>
+</head>
+
+<body class="">
+    <div class="container py-4">
+        <div class="jumbotron mt-5 border border-dark shadow-lg border border-white">
+            <h1 class="display-4 text-center mt-4 mb-3"><i class="fas fa-search"></i> Anime Finder WebApp
+            </h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="card my-5 p-5 bg-transparent shadow-lg border border-white">
+                    <form class="animeText row justify-content-center my-2 validate" id="animeForm" action="/"
+                        method="post" novalidate>
+                        <label class="col-4 text-left px-0 mb-0 py-1" for="animeInput">Enter Anime Name</label>
+
+                        <input class="col-8 form-control pl-0 py-0 animeTextinput" id="animeInput" type="text"
+                            name="name" />
+
+
+                        <input class="animeText btn btn-primary d-inline-block mt-5 mr-2" id="animesubmit" type="submit"
+                            value="Submit" />
+                        <input class="animeText btn btn-secondary d-inline-block mt-5 " type="reset" value="Clear" />
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

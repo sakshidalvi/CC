@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <style>
+        body {
+            background: url(https://wallpaperaccess.com/full/165083.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+        }
+
+        .card {
+            color: white;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        h4 {
+            font-size: 35px;
+        }
+    </style>
+    <title>Anime Finder</title>
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="jumbotron mt-5 border border-dark shadow-lg border border-white" style="padding-bottom: 37.5px;">
+            <h1 class="display-4 text-center mt-4 mb-3"><i class="fas fa-search"></i> Anime Finder WebApp
+            </h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="card my-5 p-0 bg-transparent shadow-lg border border-white">
+                    <h2 class="display-3 text-danger font-weight-bold pt-5 pb-3" style="font-size: 61px;">
+                        <i class="fas fa-exclamation-circle"></i> Invalid Anime Name <i
+                            class="fas fa-exclamation-circle"></i>
+                    </h2>
+                    <h4 class="text-white pb-4 pt-4 mb-3">
+                        Please enter a valid Anime Name
+                    </h4>
+                </div>
+            </div>
+            <div class="ml-0 mb-0">
+                <a href="http://localhost:8080/" style="text-decoration: none;">
+                    <h3 class="text-dark bg-white d-inline p-2 px-3 border border-dark rounded-circle"><i
+                            class="fas fa-long-arrow-alt-left"></i></h3>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
